@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".FindTribeActivity">
+
+    <include
+        android:id="@+id/find_tribe_appbar_layout"
+        layout="@layout/app_bar_layout"></include>
+
+    <RelativeLayout
+        android:id="@+id/myTribeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/find_tribe_appbar_layout">
+
+        <TextView
+            android:id="@+id/simpleTribeTextID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Tribes"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/find_tribe_search_box"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/simpleTribeTextID"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/inputs"
+            android:hint="Find Tribe..."
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            />
+
+        <ImageButton
+            android:layout_below="@id/simpleTribeTextID"
+            android:id="@+id/find_tribe_member_search_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/find_tribe_search_box"
+            android:background="@android:color/transparent"
+            android:src="@drawable/search"
+            />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tribesResultList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/myTribeLayout"
+        android:layout_margin="10dp">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

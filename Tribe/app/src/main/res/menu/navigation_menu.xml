@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/nav_tent"
+        android:title="View Tent"
+        android:icon="@drawable/tent_icon"/>
+
+    <item
+        android:id="@+id/nav_tribe"
+        android:title="View Tribe"
+        android:icon="@drawable/tribe_icon"/>
+
+    <item
+        android:id="@+id/nav_view_tribe_members"
+        android:title="Find Tribe Members"
+        android:icon="@drawable/friends"/>
+
+    <item
+        android:id="@+id/nav_create_house"
+        android:title="Create House"
+        android:icon="@drawable/tribe_house_icon"/>
+
+    <item
+        android:id="@+id/nav_find_tribe"
+        android:title="Find Tribe"
+        android:icon="@drawable/find_people"/>
+
+    <item
+        android:id="@+id/nav_messages"
+        android:title="Messages"
+        android:icon="@drawable/messages"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+</menu>

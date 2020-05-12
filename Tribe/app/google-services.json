@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "565908902036",
+    "firebase_url": "https://tribe-a0a84.firebaseio.com",
+    "project_id": "tribe-a0a84",
+    "storage_bucket": "tribe-a0a84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565908902036:android:aedf234fe015659a372481",
+        "android_client_info": {
+          "package_name": "com.example.obi_wan.tribe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565908902036-ll634n4bd1aicb5ogd3oe19g3iatvf58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.obi_wan.tribe",
+            "certificate_hash": "cfa339992e19ffae8294b59bd786bc5fd3a989ce"
+          }
+        },
+        {
+          "client_id": "565908902036-je8401nanb7asf384vnbeoqi0noauncg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXMl9AhIFTSDd2BgiPyebKFlTpMCZ3aDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565908902036-je8401nanb7asf384vnbeoqi0noauncg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
